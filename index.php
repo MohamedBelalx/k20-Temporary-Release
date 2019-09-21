@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/mdb.css">
     <link rel="stylesheet" href="css/style2.css">
+    <link rel="icon" href="img/logo.jpg">
 </head>
 <body>
     <?php
@@ -65,44 +66,42 @@
       <option value="null" disabled selected>First Preference</option>
       <option value="talent">Talent Committee</option>
       <option value="markting">Markting Committee</option>
+      <option value="photo">Photography & video making</option>
+      <option value="Design">Design Committee</option>
+      <option value="Magazine">Magazine Committee</option>
+      <option value="project managment">Project Managment Committee</option>
       <option value="events">Events Committee</option>
       <option value="preformance">Perfoemance Committee</option>
       <option value="dcr">DCR Committee</option>
       <option value="it">IT Committee</option>
+      <option value="Mobile">Mobile application Committee</option>
+      <option value="ui">Ui/Ux Committee</option>
       <option value="jr robotics">Junior Robotics Committee</option>
   </select>
 
 
   <select name='second[]' class="mdb-select md-form animated slower fadeInUp delay-5s" style='z-index:1225 !important'>
-      <option value="null" disabled selected>Second Preference</option>
+  <option value="null" disabled selected>Second Preference</option>
       <option value="talent">Talent Committee</option>
       <option value="markting">Markting Committee</option>
+      <option value="photo">Photography & video making</option>
+      <option value="Design">Design Committee</option>
+      <option value="Magazine">Magazine Committee</option>
+      <option value="project managment">Project Managment Committee</option>
       <option value="events">Events Committee</option>
       <option value="preformance">Perfoemance Committee</option>
       <option value="dcr">DCR Committee</option>
       <option value="it">IT Committee</option>
+      <option value="Mobile">Mobile application Committee</option>
+      <option value="ui">Ui/Ux Committee</option>
       <option value="jr robotics">Junior Robotics Committee</option>
   </select>
 
 
 
-    <!-- Password -->
-    <div class="md-form animated slower fadeInUp delay-5s">
-      <input type="text" id="comm" class="form-control">
-      <label for="comm">Comments</label>
-      <small id="materialRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
-       - Put Your Comments Here
-      </small>
 
-    </div>
-
-
-    <!-- Sign in button -->
     <button class="btn btn-danger btn-rounded btn-block my-4 waves-effect z-depth-0 animated slower fadeInUp delay-5s" type="submit">Send</button>
 
-    <!-- Register -->
-
-    <!-- Social login -->
   </form>
   <!-- Form -->
 
