@@ -12,6 +12,10 @@
     align-items: center;
     flex-direction: column;
 }
+select
+{
+    text-transform: capitalize;
+}
 .cover h1
 {
     font-weight: bold;
@@ -55,7 +59,7 @@ strong
 ul
 {
     z-index: 5000 !important;
-    top:-255px !important;
+    top:-477px !important;
 }
 
 @media(max-width:750px)
